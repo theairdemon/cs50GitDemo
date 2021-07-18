@@ -7,9 +7,9 @@ layout: default
     </head>
     <body>
         <h1>Welcome to the CS50 Git Demo!</h1>
-        <ul style="list-style:none;">
+        <ul style="list-style-type:none;">
             {% for image in site.pages %}
-                <li>
+                <li style="list-style-type:none;">
                     <img src={{site.baseurl}}/assets/images/{{image.src}} alt={{image.title}}/>                    
                 </li>
             {% endfor %}
