@@ -4,11 +4,15 @@ Please follow the instructions below to implement your changes to a sample websi
 
 ### 1. Clone this repository
 
-```git clone https://github.com/theairdemon/cs50GitDemo.git```
+```
+git clone https://github.com/theairdemon/cs50GitDemo.git
+```
 
 ### 2. Checkout a new branch
 
-```git checkout -b <branch_name>```
+```
+git checkout -b <branch_name>
+```
 
 ### 3. Add your image
 
@@ -33,7 +37,9 @@ git push origin
 ```
 
 Note: you will probably have to execute this command instead of the regular `git push`:
-```git push --set-upstream origin <branch_name>```
+```
+git push --set-upstream origin <branch_name>
+```
 
 ### 5. Perform a pull request
 
