@@ -1,3 +1,7 @@
 ## Welcome to the CS50 Git Demo!
 
-{% for i in (1..5) %}![image](/images/{{ i }}.jpg 'image')  {{ i }}|{% endfor %}
+{% for image in site.static_files %}
+    {% if image.path contains 'images/' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    {% endif %}
+{% endfor %}
