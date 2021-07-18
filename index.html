@@ -10,7 +10,7 @@ layout: default
         <ul>
             {% for image in site.pages %}
                 <li>
-                    <img src={{image.src}} alt={{image.title}}/>                    
+                    <img src={{site.baseurl}}/assets/images/{{image.src}} alt={{image.title}}/>                    
                 </li>
             {% endfor %}
         </ul>
