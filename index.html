@@ -9,7 +9,9 @@ layout: default
         <h1>Welcome to the CS50 Git Demo!</h1>
         <ul>
             {% for image in site.pages %}
-                <li>{{image.title}}</li>
+                <li>
+                    <img src={{image.src}} alt={{image.title}}/>                    
+                </li>
             {% endfor %}
         </ul>
     </body>
