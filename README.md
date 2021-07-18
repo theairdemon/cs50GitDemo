@@ -2,11 +2,15 @@
 
 Please follow the instructions below to implement your changes to a sample website located [here](https://theairdemon.github.io/cs50GitDemo/)
 
-### 1. Checkout a new branch
+### 1. Clone this repository
+
+```git clone https://github.com/theairdemon/cs50GitDemo.git```
+
+### 2. Checkout a new branch
 
 ```git checkout -b <branch_name>```
 
-### 2. Add your image
+### 3. Add your image
 
 Add an image or animated gif to the folder `assets/images`.
 
@@ -20,7 +24,7 @@ src: ../images/<your_image>.<jpg/gif/etc.>
 ---
 ```
 
-### 3. Push to remote
+### 4. Push to remote
 
 ```
 git add .
@@ -31,8 +35,8 @@ git push origin
 Note: you will probably have to execute this command instead of the regular `git push`:
 ```git push --set-upstream origin <branch_name>```
 
-### 4. Perform a pull request
+### 5. Perform a pull request
 
 Go to the _pull request_ tab in the Github repo, and through that, merge your branch with `main`.
 
-### 5. Check out your addition to the website!
+### 6. Check out your addition to the website!
